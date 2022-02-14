@@ -123,9 +123,9 @@ public class LeaderMenu {
     private void showAllProduct(ProductManagement productManagement) {
         int size = productManagement.size();
         if (size == 0) {
-            System.out.println("Danh sách rỗng");
+            System.out.println("---Danh sách rỗng---");
         } else {
-            System.out.println("Danh sách sản phẩm");
+            System.out.println("---Danh sách sản phẩm---");
             productManagement.displayAll();
         }
     }

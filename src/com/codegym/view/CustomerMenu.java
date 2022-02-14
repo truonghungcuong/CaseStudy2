@@ -99,7 +99,7 @@ public class CustomerMenu {
                 }
                 case 4: {
                     productManagement.clearCustomerProduct();
-                    System.out.println("Đã xóa");
+                    System.out.println("---Đã xóa---");
                     break;
                 }
                 case 5: {
@@ -126,9 +126,9 @@ public class CustomerMenu {
     private void showAllProduct(ProductManagement productManagement) {
         int size = productManagement.size();
         if (size == 0) {
-            System.out.println("Danh sách rỗng");
+            System.out.println("---Danh sách rỗng---");
         } else {
-            System.out.println("Danh sách sản phẩm");
+            System.out.println("---Danh sách sản phẩm---");
             productManagement.displayAll();
         }
     }

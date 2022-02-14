@@ -24,9 +24,9 @@ public class LoginMenu {
     public void run() {
         int choice = -1;
         do {
-            System.out.println("---Ứng dụng quản lý---");
+            System.out.println("---Ứng dụng quản lý sản phẩm---");
             menu();
-            System.out.println("Nhập lựa chọn");
+            System.out.println("Đăng nhập");
             choice = scanner.nextInt();
             scanner.nextLine();
             switch (choice) {
